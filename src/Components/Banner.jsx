@@ -8,7 +8,7 @@ const Banner = () => {
     <section className='py-12 md:py-16'>
       <div className='mx-auto flex max-w-[90%] flex-col-reverse items-center justify-between gap-12 md:max-w-[80%] md:flex-row'>
         
-        {/* Main Content Area */}
+        {/* Left site */}
         <div className='py-10 text-center md:py-28 md:text-left'>
           
           <div className='mx-auto flex max-w-fit items-center justify-center gap-2 rounded-full bg-[#E1E7FF] px-5 py-2.5 md:mx-0 md:justify-start'>
@@ -38,12 +38,12 @@ const Banner = () => {
           </div>
         </div>
 
-        {/* Hero Visual */}
+        {/* Hero img */}
         <div className='w-full lg:w-1/2'>
           <img 
             className='mx-auto h-auto w-full max-w-lg md:max-w-full object-contain' 
             src={heroImage} 
-            alt="Hero Visual" 
+            alt="Hero img" 
           />
         </div>
 

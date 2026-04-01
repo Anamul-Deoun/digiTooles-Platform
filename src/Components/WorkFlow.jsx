@@ -5,7 +5,6 @@ const WorkFlow = () => {
     <section className='from-[#4F39F6] to-[#9514FA] bg-gradient-to-r py-30'>
       <div className='mx-auto max-w-[80%] text-center px-4'>
         
-        {/* Main Heading & Subtext */}
         <header className='mb-10 space-y-4'>
           <h2 className='text-[40px] font-extrabold leading-tight text-white'>
             Ready to Transform Your Workflow?
@@ -16,7 +15,6 @@ const WorkFlow = () => {
           </p>
         </header>
 
-        {/* Action Buttons */}
         <div className='mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row'>
           
           <button className='w-full scale-100 rounded-full border border-white bg-white px-8 py-4 font-bold transition-all hover:scale-105 active:scale-95 sm:w-auto shadow-lg'>
@@ -31,7 +29,6 @@ const WorkFlow = () => {
 
         </div>
 
-        {/* Bottom Note */}
         <footer className='text-white/60 text-[16px] font-medium'>
           14-day free trial • No credit card required • Cancel anytime
         </footer>

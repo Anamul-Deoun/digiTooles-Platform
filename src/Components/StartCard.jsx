@@ -19,7 +19,6 @@ const StartCard = () => {
 
       <div className='mx-auto grid max-w-[90%] grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 md:gap-20 lg:max-w-[80%] lg:gap-30'>
         
-        {/* Card 01 */}
         <div className='relative w-full rounded-2xl border border-gray-100 bg-white p-8 text-center shadow-sm md:p-10'>
           <div className='from-[#4F39F6] to-[#9514FA] absolute right-6 top-6 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r text-sm font-bold text-white'>
             <span>01</span>
@@ -37,7 +36,6 @@ const StartCard = () => {
           </p>
         </div>
 
-        {/* Card 02 */}
         <div className='relative w-full rounded-2xl border border-gray-100 bg-white p-8 text-center shadow-sm md:p-10'>
           <div className='from-[#4F39F6] to-[#9514FA] absolute right-6 top-6 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r text-sm font-bold text-white'>
             <span>02</span>
@@ -55,7 +53,6 @@ const StartCard = () => {
           </p>
         </div>
 
-        {/* Card 03 */}
         <div className='relative w-full rounded-2xl border border-gray-100 bg-white p-8 text-center shadow-sm md:p-10'>
           <div className='from-[#4F39F6] to-[#9514FA] absolute right-6 top-6 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r text-sm font-bold text-white'>
             <span>03</span>

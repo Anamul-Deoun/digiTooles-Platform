@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Plan = () => {
-  // SVG Checkmark Icon Component to reduce repetition
   const CheckIcon = () => (
     <svg className="mr-3 h-6 w-6 text-[#48BB78]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7" />
@@ -22,8 +21,7 @@ const Plan = () => {
         </header>
 
         <div className='grid grid-cols-1 items-start gap-8 md:grid-cols-2 md:gap-10 lg:grid-cols-3'>
-          
-          {/* Basic Plan */}
+
           <div className='cursor-pointer rounded-3xl border border-gray-100 bg-[#F8F9FB] p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:bg-white/70 hover:shadow-xl hover:backdrop-blur-md'>
             <h3 className='text-[#1A202C] text-2xl font-bold'>Starter</h3>
             <p className='text-[#627382] mt-2 text-[16px] leading-5'>Perfect for getting started</p>
@@ -45,7 +43,6 @@ const Plan = () => {
             </button>
           </div>
 
-          {/* Pro Plan (Highlighted) */}
           <div className='from-[#4F39F6] to-[#9514FA] relative z-10 my-6 w-full cursor-pointer rounded-3xl border border-white/20 bg-gradient-to-r p-8 shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:brightness-110 md:my-0 md:scale-105'>
             <div className='absolute -top-4 left-1/2 -translate-x-1/2 rounded-full border border-[#FEF3C6] bg-[#FEF3C6] px-4 py-1 shadow-md'>
               <span className='text-[#BB4D00] whitespace-nowrap text-[14px] font-medium'>Most Popular</span>
@@ -73,7 +70,6 @@ const Plan = () => {
             </button>
           </div>
 
-          {/* Enterprise Plan */}
           <div className='cursor-pointer rounded-3xl border border-gray-100 bg-[#F8F9FB] p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:bg-white/70 hover:shadow-xl hover:backdrop-blur-md'>
             <h3 className='text-[#1A202C] text-2xl font-bold'>Enterprise</h3>
             <p className='text-[#627382] mt-2 text-[16px] leading-5'>For large scale operations</p>
