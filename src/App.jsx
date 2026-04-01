@@ -6,6 +6,7 @@ import StartCard from './Components/StartCard'
 import Plan from './Components/Plan'
 import WorkFlow from './Components/WorkFlow'
 import Footer from './Components/Footer'
+import Banner from './Components/Banner'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
+      <Banner></Banner>
       <State></State>
       <StartCard></StartCard>
       <Plan></Plan>
