@@ -51,7 +51,7 @@ const Navbar = () => {
           </div>
 
           <div className='hidden items-center gap-5 lg:flex'>
-            <a href="/login" className="font-medium text-[#101727] hover:text-[#4F39F6]">
+            <a href="#" className="font-medium text-[#101727] hover:text-[#4F39F6]">
               Login
             </a>
             <button className='rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] px-7 py-2.5 font-semibold text-white shadow-lg transition-opacity hover:opacity-90'>

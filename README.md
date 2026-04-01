@@ -1,16 +1,49 @@
-# React + Vite
+#  TaskFlow Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A streamlined productivity platform for task management and team collaboration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Description
 
-## React Compiler
+*TaskFlow Dashboard* is a modern, React-powered productivity tool designed to simplify the way teams organize and track their work. From real-time task updates to automated progress reports, this platform delivers a smooth and unified experience for teams of all sizes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+It focuses on *clarity, collaboration, and clean UI*, making it easy for users to create, assign, and monitor tasks efficiently.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Technology
+
+- ⚛️ React.js   
+- 🎨 Tailwind CSS + DaisyUI  
+- 🧠 JavaScript (ES6+)  
+- 🔔 React-Toastify  
+- 📦 JSON  
+
+---
+
+
+
+## ✨ Features
+
+### ✅ Smart Task Management
+- Automatically updates task status when marked as complete  
+- Prevents duplicate task entries  
+- Ensures a smooth and organized workflow experience  
+
+### 🔔 Interactive Notifications
+- Integrated with *React-Toastify*  
+- Provides real-time feedback for:
+  - Task created  
+  - Task completed  
+  - Task deleted  
+
+### 📊 Dynamic Progress Tracker
+- Live progress bar in the dashboard header  
+- Updates instantly as users complete or add tasks
+
+
+---
+### END 
+---
