@@ -5,6 +5,7 @@ import State from './Components/State'
 import StartCard from './Components/StartCard'
 import Plan from './Components/Plan'
 import WorkFlow from './Components/WorkFlow'
+import Footer from './Components/Footer'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <StartCard></StartCard>
       <Plan></Plan>
       <WorkFlow></WorkFlow>
+      <Footer></Footer>
     </>
   )
 }
