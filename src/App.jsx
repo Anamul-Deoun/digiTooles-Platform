@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import State from './Components/State'
 import StartCard from './Components/StartCard'
+import Plan from './Components/Plan'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar></Navbar>
       <State></State>
       <StartCard></StartCard>
+      <Plan></Plan>
     </>
   )
 }
