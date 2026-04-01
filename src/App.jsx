@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
 import State from './Components/State'
+import StartCard from './Components/StartCard'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <State></State>
+      <StartCard></StartCard>
     </>
   )
 }
