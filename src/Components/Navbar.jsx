@@ -12,7 +12,7 @@ const Navbar = () => {
 
     window.addEventListener('cartUpdate', syncCartDisplay);
     
-    // Cleanup to prevent memory leaks
+    
     return () => {
       window.removeEventListener('cartUpdate', syncCartDisplay);
     };
@@ -22,14 +22,14 @@ const Navbar = () => {
     <nav className='sticky top-0 z-50 bg-white shadow-md shadow-black/10'>
       <div className='mx-auto flex max-w-[95%] items-center justify-between py-4 md:max-w-[90%] lg:max-w-[80%] lg:py-6'>
         
-        {/* Branding Section */}
+        {/*  Logo */}
         <section>
           <h1 className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-2xl font-black text-transparent md:text-3xl lg:text-4xl'>
             DigiTools
           </h1>
         </section>
 
-        {/* Desktop Navigation Links */}
+        
         <nav className='hidden lg:block'>
           <ul className='flex items-center gap-8 font-semibold text-[#101727]'>
             {['Products', 'Features', 'Pricing', 'Testimonials', 'FAQ'].map((item) => (
@@ -42,7 +42,7 @@ const Navbar = () => {
           </ul>
         </nav>
 
-        {/* User Actions & Cart */}
+        {/*  Actions & Cart */}
         <div className='flex items-center gap-5 lg:gap-7'>
           
           <div className='relative inline-block cursor-pointer group'>
@@ -53,7 +53,7 @@ const Navbar = () => {
             </span>
           </div>
 
-          {/* Desktop Auth Buttons */}
+          {/* Desktop Buttons */}
           <div className='hidden items-center gap-5 lg:flex'>
             <a href="/login" className="font-medium text-[#101727] hover:text-[#4F39F6]">
               Login
